@@ -18,7 +18,7 @@ html{
 #header{
     padding-top: 50%;
     position: relative;
-    background: url('/assets/images/img-header.jpg') rgba(0, 0, 0, 0.8) top center / cover no-repeat;
+    background: url('/assets/images/img-header.jpg') top center / cover no-repeat;
 }
 .logo-header{
     position: fixed;
@@ -99,7 +99,12 @@ html{
 /* SLOGAN */
 #slogan{
     height: 400px;
-    color: #ccc;
+}
+.item-slogan{
+    border: 1px solid gray;
+}
+.header-slogan{
+    padding: 24px 0 60px;
 }
 .container-slogan{
     display: flex;
@@ -109,9 +114,24 @@ html{
 
 /* SLIDER */
 #slider{
-
+}
+.header-slider{
+    text-align:center;
+    padding: 48px 0;
+}
+.container-slider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-slider{
+    text-align: center;
+}
+.img-slider{
+    width: 360px;
 }
 
+/* CONTENT  */
 #content{
 
 }
