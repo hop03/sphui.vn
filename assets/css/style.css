@@ -18,13 +18,7 @@ html{
 #header{
     padding-top: 50%;
     position: relative;
-    background: url('/assets/images/img-header.jpg') top center / cover no-repeat;
-    background-color: rgba(0, 0, 0, 0.6);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
+    background: url('/assets/images/img-header.jpg') rgba(0, 0, 0, 0.8) top center / cover no-repeat;
 }
 .logo-header{
     position: fixed;
@@ -32,7 +26,6 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .menu-header{
@@ -99,12 +92,22 @@ html{
     font-size: 18px;
     padding-left: 10px;
 }
+.content-header .about{
+    padding: 24px 0 4px;
+}
 
 /* SLOGAN */
 #slogan{
-
+    height: 400px;
+    color: #ccc;
+}
+.container-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* SLIDER */
 #slider{
 
 }
