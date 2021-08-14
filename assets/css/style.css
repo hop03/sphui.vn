@@ -116,19 +116,19 @@ html{
 /* SLIDER */
 #slider{
 }
-.header-slider{
+.header{
     text-align:center;
     padding: 48px 0;
 }
-.container-slider{
+.container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.item-slider{
+.item{
     text-align: center;
 }
-.img-slider{
+.img{
     width: 360px;
 }
 
@@ -137,9 +137,12 @@ html{
 
 }
 
+
+/* FEEDBACK */
 #feedback{
 
 }
+
 
 #footer{
 
